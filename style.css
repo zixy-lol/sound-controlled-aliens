@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Sweet Cupcake;
+  src: url(Sweet\ Cupcake\ alt\ demo.ttf);
+}
+@font-face {
+  font-family: Sprinkle;
+  src: url(Sprinkle-Regular.ttf);
+}
+body {
+  background: #d8939f;
+  font-family: Sweet Cupcake;
+}
+.header_div {
+  color: black;
+  background: rgb(236, 236, 236);
+}
+.header_div p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main_div button {
+  width: 130px;
+  margin-top: 30px;
+}
+.footer1 {
+  position: fixed;
+  font-family: Sprinkle;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(44, 44, 44);
+  font-size: 20px;
+}
